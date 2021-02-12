@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: inherit;
+    font-family: 'Lobster Two', cursive;
+    
+}
+/* Styling the header section backgound */
+.style{
+    background: linear-gradient(to right,#717894af 40%, #717c94a8 60%), url(../images/header-bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding: 0 2% 5% 5%;
+    margin-bottom: 8em;
+}
+/* styling the  navigations divisions */
+.row_nav{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    column-gap: 2em;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Styling logo */
+.logo_style{
+    width: 100%;
+}
+/* styling the listing navigation */
+.nav_column__row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* Styling the navigation list */
+.style_list{
+    list-style: none;
+    margin-right: 5em;
+    color: #F7F7F7;
+    font-size: 2em;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+/* .style_list:last-child{
+    margin-right: 0;
+} */
+/* style inpire link */
+.inspired{
+    text-align: center;
+    /* background-color: black; */
+}
+.inspire_link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 2.5em;
+    color: #F7F7F7;
+    border-bottom: .2em #F7F7F7 solid;
+   
+}
+.inspire_link_text{
+    display:inline-block;
+    margin-bottom:.2em;
+}
+/* header text */
+.header_text{
+    margin-top: 8%;
+    text-align: center;
+}
+.primary_heading{
+    color: #F7F7F7;
+    text-transform: capitalize;
+    font-size: 8em;
+    font-weight: 900;
+    font-family: inherit;
+    letter-spacing: .2em;
+}

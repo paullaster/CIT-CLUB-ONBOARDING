@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+    font-family: 'Lobster Two', cursive;
+}
+/* the main styles */
+.style_main{
+    height: 90vh;
+    text-align: center;
+}
