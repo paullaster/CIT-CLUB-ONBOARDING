@@ -9,6 +9,31 @@ body{
 }
 /* the main styles */
 .style_main{
-    height: 90vh;
-    text-align: center;
+    background-color: #f8f8ff;
+    height: 110vh;
+    /* text-align: center; */
+    padding: 5% 0 5% 0;
+}
+/* Styling the secondary heading {h2} */
+.heading_secondary{
+    text-transform: capitalize;
+    font-size: 8em;
+}
+/* Styling the blog section */
+.row_section__one{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+/* spacing blog heading */
+.column_section__one_heading{
+    margin-bottom: 20%;
+}
+/* Styling blogs */
+.column_section__one{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2em;
+    margin-bottom: 20%;
 }

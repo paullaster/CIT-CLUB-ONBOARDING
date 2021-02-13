@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+    font-family: 'Lobster Two', cursive;
+}
+/* style the footer section */
+.style_footer{
+    height: 80vh;
+    background-color: #f5f5f5;
+    padding: 10% 5% 10% 5%;
+    margin-bottom: 2%;
+}
+/* Style the main footer row */
+.footer_row{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap:1.5em;
+    margin-bottom: 7%;
+}
+/* styling footer logo */
+.footer_logo{
+    width: 60%;
+}
+/* styling the copyright bar */
+.copyright_row{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    border-top:.2em #FFDEAD solid;
+}
+/* copyright text */
+.copyright{
+    text-transform: capitalize;
+    font-size: 2em;
+}
