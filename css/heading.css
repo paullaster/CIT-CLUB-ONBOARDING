@@ -15,10 +15,14 @@
 }
 /* footer span */
 .para_content{
-    font-size: 2em;
+    font-size: 1.8em;
 }
 /* styling footer links */
 .para_content a{
     text-decoration: none;
     color: black;
+}
+/* Adding left margin to the follow us span */
+.margin_left{
+    margin-left: 1%;
 }
