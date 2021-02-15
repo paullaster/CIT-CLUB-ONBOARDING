@@ -35,7 +35,6 @@ body{
 }
 /* hover effect on side bar navigations */
 .side_nav_btn:hover{
-    
     color: skyblue;
     text-align: inherit;
 }
@@ -51,6 +50,10 @@ body{
     margin-top: -.5em;
     background: black;
     height: 12vh;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
 }
 /* styling the span for opening the side nav bar */
 .open_nav__btn{
