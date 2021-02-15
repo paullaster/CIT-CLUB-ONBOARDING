@@ -15,11 +15,13 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/heading.css">
+    <link rel="stylesheet" href="./css/side_navigation.css">
     <!-- Fontawesome links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.css">
-    <!--  -->
+    <!-- pointing to local javascript file -->
+    <script src="./src/side_nav.js"></script>
 </head>
 <body>
     <!-- This is the header section -->
@@ -37,6 +39,15 @@
                <div><li class="style_list">tech news</li></div>    
             </div>
         </nav>
+        <!-- side bar navigation -->
+        <div class="side_nav" id="side_bar__nav">
+            <a href="javascript:void(0)" class="side_nav_close" onclick="close_nav()">&times;</a>
+            <a href="#" class="side_nav_btn">register</a>
+            <a href="#" class="side_nav_btn">events</a>
+            <a href="#" class="side_nav_btn">support us</a>
+        </div>
+            <span class="open_nav__btn" onclick="open_nav()">&#9776;</span>
+        
         <!-- inspirations -->
         <div class="inspired">
             <a href="#" class="inspire_link"><span class="inspire_link_text">inspiration</span></a>

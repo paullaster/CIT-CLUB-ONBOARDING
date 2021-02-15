@@ -23,7 +23,7 @@ body{
 /* styling the  navigations divisions */
 .row_nav{
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 15% 85% ;
     column-gap: 2em;
     justify-content: center;
     align-items: center;
