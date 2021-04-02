@@ -31,3 +31,5 @@ The find developer links up clients that would need their works or projects done
 ### Our Team
 This page displays the club leaders in service. It include their photo and a short descriptions and a link to their social profiles and theor online portfolio.
  
+# Contributors:
+1. @VictorOmondi1997 : Web
