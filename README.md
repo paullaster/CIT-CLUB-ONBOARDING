@@ -30,6 +30,12 @@ This is a section in the page.
 The find developer links up clients that would need their works or projects done and the developers that have signed up with the club.
 ### Our Team
 This page displays the club leaders in service. It include their photo and a short descriptions and a link to their social profiles and theor online portfolio.
- 
+# Colors to use throughout the app
+  Deep blue : hex> #00008b
+  White smoke : hex> #F5F5F5
+  Jet : hex> #343434
+  oxford blue : hex> #002147
+  pineapple Yellow : hex>#feea6a
+  scarlet red : hex>#A10000
 # Contributors:
 1. @VictorOmondi1997 : Web
