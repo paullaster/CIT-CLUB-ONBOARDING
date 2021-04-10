@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styling the main conctent of our team page */
+.main_ourTeam{
+ background-color: orangered;
+ margin: 0 2em 0 2em;
+}

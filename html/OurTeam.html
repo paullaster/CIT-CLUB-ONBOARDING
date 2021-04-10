@@ -14,7 +14,13 @@
     <title></title>
     <!-- style and script resources -->
     <link rel="stylesheet" href="../css/heading.css" media="all">
-    <script src=""></script>
+    <link rel="stylesheet" href="../css/ourTeam.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/carosel.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/side_navigation.css">
+    <script src="../src/side_nav.js"></script>
     <!--meta properties -->
     <meta name="description" content=" Your site description." />
     <!--detailed robots meta https://developers.google.com/search/reference/robots_meta_tag -->
@@ -52,33 +58,55 @@
     <!--powered by meta-->
     <meta name="generator" content="" />
     <!-- Site fevicon icons -->
-    <link rel="icon" href="images/icon/cropped-cropped-favicon-1-1-32x32.png" sizes="32x32" />
-    <link rel="icon" href="images/icon/cropped-cropped-favicon-1-1-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="images/icon/cropped-cropped-favicon-1-1-180x180.png" />
+    <link rel="icon" href="../logo.jpg" sizes="32x32" />
+    <link rel="icon" href="../logo.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../logo.jpg" />
     <meta name="msapplication-TileImage" content="images/icon/cropped-cropped-favicon-1-1-270x270.png" />
     <!--complete list of meta tags at - https://gist.github.com/lancejpollard/1978404 -->
 </head>
 
 <body>
-    <header>
-        <nav>
-
+    <header class="style">
+        <!-- The navigation links -->
+        <nav class="row_nav">
+            <div class="nav_column">
+                 <img src="../logo-removebg-preview.png" alt="cit club logo" srcset="../images/logo-removebg-preview.png" class="logo_style">
+            </div>
+            <div class="nav_column nav_column__row">
+               <div><li class="style_list">CIT</li></div>
+               <div><li class="style_list">projects</li></div>
+               <div><li class="style_list">about us</li></div>
+               <div><li class="style_list">contact us</li></div>
+               <div><li class="style_list">tech news</li></div>    
+            </div>
         </nav>
+        <!-- side bar navigation -->
+        <div class="side_nav" id="side_bar__nav">
+            <a href="javascript:void(0)" class="side_nav_close" onclick="close_nav()">&times;</a>
+            <a href="./html/registration.html" class="side_nav_btn">register</a>
+            <a href="#" class="side_nav_btn">events</a>
+            <a href="#" class="side_nav_btn">support us</a>
+        </div>
+        <span class="open_nav__btn" onclick="open_nav()">&#9776;</span>
+         <!-- inspirations -->
+         <div class="inspired">
+            <a href="#" class="inspire_link"><span class="inspire_link_text">inspiration</span></a>
+        </div>
     </header>
 
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <main>
+    <main class="main_ourTeam">
         <section class="heading">
             <h2 class="heading_secondary">
-                our team
+               meet our team
             </h2>
         </section>
         <section class="team">
             <div class="profiles">
                 <div>
-                    <img src="./Images/Brenda.jpg" alt="" srcset="">
+                    <img src="../images/images_ourTeam/Brenda.jpg" alt="Brenda" srcset="">
                 </div>
                 <div>
                     <h3 class="heading_tertiary">
