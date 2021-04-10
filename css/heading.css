@@ -1,49 +1,28 @@
 /* This css file has alll styles for typography */
-
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-
 /* styling headings */
-
-.heading_secondary {
-    text-transform: capitalize;
-    color: #00008B;
-}
-
-.heading_tertiary {
+.heading_tertiary{
     font-size: 2.5em;
     text-transform: capitalize;
     margin-bottom: 5%;
 }
-
-
 /* footer contents */
-
-.content_div {
+.content_div{
     margin-bottom: 5%;
 }
-
-
 /* footer span */
-
-.para_content {
+.para_content{
     font-size: 1.8em;
 }
-
-
 /* styling footer links */
-
-.para_content a {
+.para_content a{
     text-decoration: none;
     color: black;
 }
-
-
 /* Adding left margin to the follow us span */
-
-.margin_left {
+.margin_left{
     margin-left: 1%;
 }
