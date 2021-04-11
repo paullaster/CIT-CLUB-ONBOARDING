@@ -10,14 +10,14 @@
 .team{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    justify-content: justify;
+    justify-content: center;
     align-items: center;
     background: blue;
 }
 .profiles{
    max-width: 100%;
     background: blueviolet;
-    padding: 4% 22% 4% 22%;
+    padding: 4% 10% 4% 10%;
     margin: 2% 0 2% 0;
 }
 .profile_photo{
@@ -27,10 +27,10 @@
     border-radius: 50%;
 }
 .description{
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: justify;
     color: #343434;
-    font-weight: 600;
+    font-weight: 700;
 }
 .debug{
     background: chartreuse;
@@ -38,4 +38,16 @@
 .bheading{
     background: crimson;
     width: 100%;
+}
+.profiles-back{
+    transform: rotateY(180deg);
+    display: none;
+}
+/* Hover effects */
+.profiles:hover{
+    background: black;
+    transform: rotateY(-180deg);
+}
+.profiles-back:hover{
+    transform: rotateY(0);
 }
