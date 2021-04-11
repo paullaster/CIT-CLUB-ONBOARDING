@@ -17,7 +17,7 @@
 .profiles{
    max-width: 100%;
     background: blueviolet;
-    padding: 4% 30% 4% 30%;
+    padding: 4% 22% 4% 22%;
     margin: 2% 0 2% 0;
 }
 .profile_photo{
@@ -25,9 +25,6 @@
     width: 20.8em;
     height: 20.8em;
     border-radius: 50%;
-}
-.div_name{
-    width: 100%;
 }
 .description{
     font-size: 2em;
