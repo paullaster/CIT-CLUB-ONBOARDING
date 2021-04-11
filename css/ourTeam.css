@@ -7,3 +7,38 @@
  background-color: orangered;
  margin: 0 2em 0 2em;
 }
+.team{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: justify;
+    align-items: center;
+    background: blue;
+}
+.profiles{
+   max-width: 100%;
+    background: blueviolet;
+    padding: 4% 30% 4% 30%;
+    margin: 2% 0 2% 0;
+}
+.profile_photo{
+    display: block;
+    width: 20.8em;
+    height: 20.8em;
+    border-radius: 50%;
+}
+.div_name{
+    width: 100%;
+}
+.description{
+    font-size: 2em;
+    text-align: justify;
+    color: #343434;
+    font-weight: 600;
+}
+.debug{
+    background: chartreuse;
+}
+.bheading{
+    background: crimson;
+    width: 100%;
+}
