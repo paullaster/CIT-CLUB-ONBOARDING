@@ -7,18 +7,12 @@
  background-color: orangered;
  margin: 0 2em 0 2em;
 }
-.team{
+.team_grid{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     justify-content: center;
     align-items: center;
-    background: blue;
-}
-.profiles{
-   max-width: 100%;
-    background: blueviolet;
-    padding: 4% 10% 4% 10%;
-    margin: 2% 0 2% 0;
+/*background: blue; */
 }
 .profile_photo{
     display: block;
@@ -32,24 +26,33 @@
     color: #343434;
     font-weight: 700;
 }
-.debug{
-    background: chartreuse;
+.team_card{
+    position: relative;
+    perspective: 50em;
+    height: 32em;
+    box-shadow: .1em .1em .4em rgba(0, 0, 0, 0.5);
 }
-.bheading{
-    background: crimson;
+.card_side{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 32em;
+    backface-visibility: hidden;
+    transition: all .8s ease;
+    padding: 4% 21% 4% 21%;
+    margin: 2% 0 2% 0;
 }
-.profiles-back{
+.front{
+    background: rgb(206, 124, 185);
+}
+.back{
+    background: cornflowerblue;
     transform: rotateY(180deg);
-    background: yellow;
-    padding: 2em;
-    /* display: none; */
 }
-/* Hover effects */
-.profiles:hover{
-    background: black;
+.team_card:hover .front{
     transform: rotateY(-180deg);
 }
-.profiles-back:hover{
+.team_card:hover .back{
     transform: rotateY(0);
 }
