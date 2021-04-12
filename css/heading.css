@@ -13,6 +13,7 @@ section{
 .heading_secondary {
     text-transform: capitalize;
     color: #00008B;
+    text-align: center;
 }
 
 .heading_tertiary {
@@ -21,7 +22,6 @@ section{
     text-transform: capitalize;
     margin: 1em 0 .1em 0;
     font-weight: 800;
-
 }
 
 
@@ -51,4 +51,36 @@ section{
 
 .margin_left {
     margin-left: 1%;
+}
+
+/* styling span */
+.profile{
+    text-align: start;
+    display: block;
+    text-transform: capitalize;
+    padding: 2% 2% 3% 2%;
+}
+.funfacts{
+    text-align: start;
+    display: block;
+    text-transform: capitalize;
+    padding: 1% 2% 3% 2%;
+}
+.interest{
+    text-align: start;
+    display: block;
+    text-transform: capitalize;
+    padding: 2% 2% 3% 2%;
+}
+.social{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 2% 15%;
+    background: #00316E; ;
+    color: #F8F8FF;
+}
+.social_link{
+    color: #F8F8FF;
 }
