@@ -41,7 +41,9 @@
 }
 .profiles-back{
     transform: rotateY(180deg);
-    display: none;
+    background: yellow;
+    padding: 2em;
+    /* display: none; */
 }
 /* Hover effects */
 .profiles:hover{
