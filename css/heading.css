@@ -84,3 +84,8 @@ section{
 .social_link{
     color: #F8F8FF;
 }
+/* styling the back paragraph */
+.b_para{
+    font-weight: 400;
+    
+}
