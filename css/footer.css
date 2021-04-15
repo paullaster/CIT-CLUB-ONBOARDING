@@ -5,25 +5,25 @@
 }
 body{
     box-sizing: inherit;
-    font-family: 'Lobster Two', cursive;
 }
 /* style the footer section */
 .style_footer{
     height: 76vh;
-    background-color: #f5f5f5;
+    background-color: darkblue;
     padding: 10% 5% 10% 5%;
     margin-bottom: 2%;
+    clip-path: polygon(76% 4%, 44% 20%, 28% 12%, 12% 24%, 0 48%, 0% 76%, 0% 100%, 25% 100%, 40% 100%, 60% 100%, 76% 100%, 100% 100%, 100% 36%, 92% 20%);
 }
 /* Style the main footer row */
 .footer_row{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 27.5% 20% 27.5% 15%;
     column-gap:1.5em;
     margin-bottom: 4%;
 }
 /* styling footer logo */
 .footer_logo{
-    width: 70%;
+    width: 100%;
 }
 /* styling the copyright bar */
 .copyright_row{
@@ -46,4 +46,7 @@ body{
 /* Centering footer headings */
 .centering_footer__heading{
     text-align: center;
+}
+.heading_text_color{
+    color: black;
 }

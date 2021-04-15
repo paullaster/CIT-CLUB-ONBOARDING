@@ -17,14 +17,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    padding: 0 2% 5% 5%;
+    padding: 0 2% 5% 1%;
     margin-bottom: 8em;
 }
 /* styling the  navigations divisions */
 .row_nav{
     display: grid;
-    grid-template-columns: 15% 85% ;
-    column-gap: 2em;
+    grid-template-columns: 10% 90% ;
+    column-gap: .4em;
     justify-content: center;
     align-items: center;
     

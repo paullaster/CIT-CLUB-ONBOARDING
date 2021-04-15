@@ -56,8 +56,8 @@
     margin: 2% 0 2% 0;
 }
 /* card's fron side */
-.front{
-    
+.formating_font{
+    font-size: 1.5em;
     /* background: rgb(206, 124, 185); */
 }
 /* cards back side */
