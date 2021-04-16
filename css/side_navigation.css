@@ -5,10 +5,10 @@ This file has the styles for the side bar navigation
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     box-sizing: inherit;
-    font-family: 'Lobster Two', cursive;
 }
 /* styling the side nav class */
 .side_nav{

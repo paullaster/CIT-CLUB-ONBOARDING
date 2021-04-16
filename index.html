@@ -7,7 +7,8 @@
     <title>CIT CLUB | MULTIMEDIA UNIVERSITY OF KENYA</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Link to google fonts API -->
-    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- The favicon -->
     <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
     <!-- the local css files links -->
@@ -32,12 +33,29 @@
                  <img src="./images/logo-removebg-preview.png" alt="cit club logo" srcset="./images/logo-removebg-preview.png" class="logo_style">
             </div>
             <div class="nav_column nav_column__row">
-               <div><li class="style_list">resources</li></div>
-               <div><li class="style_list">events</li></div>
-               <div><li class="style_list">gallery</li></div>
-               <div><li class="style_list"><a href="./html/OurTeam.html">our team</a></li></div>
-               <div><li class="style_list">find developer</li></div> 
-               <div><li class="style_list">accounts</li></div>      
+                <li class="style_list display_drop"> <a href="#">resources
+                    <img  class="postion_arrow" src="./cit club design/icon/arrow-down-svgrepo-com.svg" alt="">
+                </a>   
+                      <ul class="drop_down">
+                            <a href="#">past papers</a>
+                            <a href="#">projects</a>
+                            <a href="#">blogs</a>
+                            <a href="#">tech news</a>
+                            <a href="#">tech inverviews</a>
+                      </ul>
+                </li>  
+               <a  href="#"  class="style_list">events</a>
+               <a  href="#" class="style_list">gallery</a>
+               <a  href="./html/OurTeam.html" class="style_list">our team</a>
+               <a  href="#" class="style_list">find developer</a> 
+               <li href="#" class="style_list display_drop "><a href="#">accounts
+                    <img  class="postion_arrow" src="./cit club design/icon/arrow-down-svgrepo-com.svg" alt=""></a>
+                    <ul class="drop_down">
+                        <a href="#">sign up</a>
+                        <a href="#" class="btn_login_white">login</a>
+                        <a href="#">Join MMU CIT CLuB</a>
+                    </ul>
+                </li>       
             </div>
         </nav>
         <!-- side bar navigation -->
@@ -50,7 +68,7 @@
             <span class="open_nav__btn" onclick="open_nav()">&#9776;</span>
         
         <!-- inspirations -->
-        <div class="inspired">
+        <!-- <div class="inspired">
             <a href="#" class="inspire_link"><span class="inspire_link_text">inspiration</span></a>
         </div>
         <div class="header_text">
@@ -60,170 +78,29 @@
             <div class="header_text_para">
                 <h1 class="primary_heading">run by students</h1>
             </div>
-        </div>
+        </div> -->
     </header>
     <!-- Main section of the page -->
     <!-- This section will display the blogs that are fetched via an API and refreshed after 24 hours -->
     <main class="style_main">
-        <section class="section_one">
-            <div class="row_section__one">
-                <div class="column_section__one_heading">
-                    <h2 class="heading_secondary">blogs</h2>
-                </div>
-                <div class="column_section__one">
-                    <div class="blog">
-                        <h3   id="blog_1"  class="heading_tertiary">this is blog heading</h3>
-                        <div class="blog_content">
-                            Blog content  goes here 
-                            <a id="blog_1_link" href="#" class="btn">read more</a>
-                        </div>
-                        <div class="interact">
-                            <div class="follow">
-                                <button class="follow_btn"><i class="fas fa-user-plus"></i> follow bloger</button>
-                            </div>
-                            <div class="appreciate">
-                                <button class="appreciate_btn"><i class="far fa-heart"></i>show love</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <h3   id="blog_1"  class="heading_tertiary">this is blog heading</h3>
-                        <div class="blog_content">
-                            Blog content  goes here 
-                            <a id="blog_1_link" href="#" class="btn">read more</a>
-                        </div>
-                        <div class="interact">
-                            <div class="follow">
-                                <button class="follow_btn"><i class="fas fa-user-plus"></i> follow bloger</button>
-                            </div>
-                            <div class="appreciate">
-                                <button class="appreciate_btn"><i class="far fa-heart"></i>show love</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column_section__one">
-                    <div class="blog">
-                        <h3   id="blog_1"  class="heading_tertiary">this is blog heading</h3>
-                        <div class="blog_content">
-                            Blog content  goes here 
-                            <a id="blog_1_link" href="#" class="btn">read more</a>
-                        </div>
-                        <div class="interact">
-                            <div class="follow">
-                                <button class="follow_btn"><i class="fas fa-user-plus"></i> follow bloger</button>
-                            </div>
-                            <div class="appreciate">
-                                <button class="appreciate_btn"><i class="far fa-heart"></i>show love</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <h3   id="blog_1"  class="heading_tertiary">this is blog heading</h3>
-                        <div class="blog_content">
-                            Blog content  goes here 
-                            <a id="blog_1_link" href="#" class="btn">read more</a>
-                        </div>
-                        <div class="interact">
-                            <div class="follow">
-                                <button class="follow_btn"><i class="fas fa-user-plus"></i> follow bloger</button>
-                            </div>
-                            <div class="appreciate">
-                                <button class="appreciate_btn"><i class="far fa-heart"></i>show love</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- This is the section that appears first when user visits the website -->
+        <section class="landing_section">
+            <div class="text_div">
+                <h1 class="heading_primary lading_section_style">
+                    Started by Students <br>
+                    Run by Students
+                </h1>
+                <a class="join_citclub" href="./html/registration.html">Join MMU CIT CLUB</a>
+            </div>
+            <div class="img_div">
+                <img   class="img_div__style" src="./cit club design/illustrations/undraw-android.svg" alt="">
             </div>
         </section>
     </main>
     <!-- Footer section -->
-    <footer class="style_footer">
-        <div class="footer_row">
-            <div>
-                <a href="#" class="footer_logo_link">
-                    <img src="./images/logo-removebg-preview.png" alt="CIT club logo" srcset="./images/logo-removebg-preview.png" class="footer_logo">
-                </a>
-            </div>
-            <div >
-                <h3 class="heading_tertiary bottom_border centering_footer__heading heading_text_color">our address</h3>
-                <div class="content_div">
-                    <span class="para_content">Nairobi, Kenya</span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">Multimedia University Of Kenya</span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">P.O. Box 15653 - 00503</span>
-                </div> 
-            </div>
-            <div>
-                <h3 class="heading_tertiary bottom_border centering_footer__heading heading_text_color">call us</h3>
-                <div class="content_div">
-                    <span class="para_content">Paullaster Okoth</span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content"><a href="tel:+254700258098" target="_blank" rel="noopener noreferrer">+254700258098</a></span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">Stephen Kamau</span>
-                </div>
-                <div class="content_div">    
-                    <span class="para_content"><a href="tel:+254705698768" target="_blank" rel="noopener noreferrer">+254705698768</a></span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">Duncan Santiago</span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content"><a href="tel:+254797494505" target="_blank" rel="noopener noreferrer">+254797494505</a></span>
-                </div>   
-           </div>
-            <div>
-                <h3 class="heading_tertiary bottom_border centering_footer__heading heading_text_color">sponsors</h3>
-                <div class="content_div">
-                    <span class="para_content">
-                        <a href="http://mmu.ac.ke" target="_blank" rel="noopener noreferrer">Multimedia University Of Kenya</a>
-                    </span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">
-                        <a href="http://virdis.co.ke" target="_blank" rel="noopener noreferrer">Virdismart Global</a>
-                    </span>
-                </div>
-               <div class="content_div">
-                <span class="para_content">
-                    <a href="http://mata.co.ke" target="_blank" rel="noopener noreferrer">Brainspore LLC</a>
-                </span>
-               </div>   
-            </div>
-            <div>
-                <h3 class="heading_tertiary bottom_border centering_footer__heading heading_text_color">follow us</h3>
-                <div class="content_div">
-                    <span class="para_content">
-                        <a href="https://twitter.com/citclubmmu" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-1x"></i><span class="margin_left">Twitter</span></a>
-                    </span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">
-                        <a href="https://github.com/paullaster/CIT-CLUB-ONBOARDING" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-1x"></i></i><span class="margin_left">Github</span></a>
-                    </span>
-                </div>
-                <div class="content_div">
-                    <span class="para_content">
-                        <a href="mailto:citclub@mmu.ac.ke" target="_blank" rel="noopener noreferrer"><i class="fas fa-mail-bulk fa-1x"></i> <span class="margin_left">Email</span></a>
-                    </span>
-                </div>   
-                <div class="content_div">
-                    <span class="para_content">
-                        <a href="https://chat.whatsapp.com/8OyBqxkeWP5DF9MD0C9SGt" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp-square fa-1x"></i><span class="margin_left"> whatsapp</span></a>
-                    </span>
-                </div>
-            </div>
-        </div>               
-        <div class="copyright_row">
-            <div class="copyright_column">
-                <span class="copyright">copyright &COPY; 2021 computing and information technology club Multimedia University of kenya. all rights reserved</span>
-            </div>
+    <footer>
+        <div class="experiment">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores vitae maiores assumenda ipsum. Inventore, ex sunt numquam quis sequi tempore perspiciatis maxime cum iure excepturi dignissimos, quaerat, repellendus deserunt architecto.</p>
         </div>
     </footer>
 </body>

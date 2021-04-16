@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     box-sizing: inherit;
 }
-/* style the footer section */
-.style_footer{
-    background-image: url(../cit\ club\ design/icon/wave\ big\ centre.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+footer{
+    background-color: rgb(1, 36, 86);
+    height: 50vh;
+    padding-top: 12em;
+    clip-path: path("M0,160L60,149.3C120,139,240,117,360,101.3C480,85,600,75,720,96C840,117,960,171,1080,186.7C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,180,320C960,320,840,320,720,320C600,320,480,320,160,320C240,320,120,320,60,320L0,320Z");
 }
 /* Style the main footer row */
 .footer_row{
