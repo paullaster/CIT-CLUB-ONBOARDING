@@ -2,38 +2,32 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     box-sizing: inherit;
     font-family: 'Lobster Two', cursive;
+    position: relative;
 }
-/* the main styles */
-.style_main{
-    background-color: #f8f8ff;
-    height: 110vh;
-    /* text-align: center; */
-    padding: 5% 0 5% 0;
-}
-/* Styling the secondary heading {h2} */
-.heading_secondary{
-    text-transform: capitalize;
-    font-size: 8em;
-}
-/* Styling the blog section */
-.row_section__one{
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
-}
-/* spacing blog heading */
-.column_section__one_heading{
-    margin-bottom: 20%;
-}
-/* Styling blogs */
-.column_section__one{
+.landing_section{
     display: grid;
     grid-template-columns: 50% 50%;
-    column-gap: 2em;
-    margin-bottom: 20%;
+}
+.img_div__style{
+    width: 60em;
+}
+/* Join CIT club button */
+.join_citclub{
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    text-decoration: none;
+    padding:.5em;
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 2.5em;;
+    background: rgb(1, 36, 86);
+    color: #f8f8ff;
+    border-radius: 10em;
+    box-shadow: .1em .1em .4em .8em #34343410;
 }

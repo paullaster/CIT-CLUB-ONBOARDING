@@ -1,5 +1,5 @@
 # MULTIMEDIA UNIVERSITY OF KENYA COMPUTING AND INFORMATION TECHNOLOGY CLUB
-##The CIT CLUB web application.
+## The CIT CLUB web application.
 ### Features 
 #### 1. Resources
 In the resources feature, There are several resources including past papers for all the courses offered by the University. 
@@ -30,6 +30,13 @@ This is a section in the page.
 The find developer links up clients that would need their works or projects done and the developers that have signed up with the club.
 ### Our Team
 This page displays the club leaders in service. It include their photo and a short descriptions and a link to their social profiles and theor online portfolio.
- 
+# Usable colors
+Hello contributors, feel free to use either of this colors;
+1. jet hexa code : #343434
+2.  dark blue    : rgb(1,36,86)
+3. white    hexa code  : #f8f8ff 
 # Contributors:
 1. @VictorOmondi1997 : Web
+2. @Brenda-Mwangi    :Web
+3. @Paminus-kingori  :Web
+4. @paullaster        :Web

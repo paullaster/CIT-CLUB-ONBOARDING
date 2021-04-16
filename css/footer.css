@@ -2,28 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     box-sizing: inherit;
-    font-family: 'Lobster Two', cursive;
 }
-/* style the footer section */
-.style_footer{
-    height: 76vh;
-    background-color: #f5f5f5;
-    padding: 10% 5% 10% 5%;
-    margin-bottom: 2%;
+footer{
+    background-color: rgb(1, 36, 86);
+    height: 50vh;
+    padding-top: 12em;
+    clip-path: path("M0,160L60,149.3C120,139,240,117,360,101.3C480,85,600,75,720,96C840,117,960,171,1080,186.7C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,180,320C960,320,840,320,720,320C600,320,480,320,160,320C240,320,120,320,60,320L0,320Z");
 }
 /* Style the main footer row */
 .footer_row{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    column-gap:1.5em;
-    margin-bottom: 4%;
+    grid-template-columns: 10% 27.5% 20% 27.5% 15%;
+    column-gap:.5em;
 }
 /* styling footer logo */
 .footer_logo{
-    width: 70%;
+    width: 100%;
 }
 /* styling the copyright bar */
 .copyright_row{
@@ -46,4 +44,7 @@ body{
 /* Centering footer headings */
 .centering_footer__heading{
     text-align: center;
+}
+.heading_text_color{
+    color: black;
 }
