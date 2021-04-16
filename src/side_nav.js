@@ -7,7 +7,7 @@
  */
 //open_nav() function begins here
 function open_nav(){
-    document.getElementById("side_bar__nav").style.width = "15em";
+    document.getElementById("side_bar__nav").style.width = "12em";
 }
 //end
 //close_nav() function begins here
