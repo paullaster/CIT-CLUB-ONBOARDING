@@ -1,11 +1,42 @@
 # MULTIMEDIA UNIVERSITY OF KENYA COMPUTING AND INFORMATION TECHNOLOGY CLUB
-## This is web application that will have all the club activities moodle embedded on it.
-### The website will consist of landing page, <index.html> and other pages as suggested by 
-### the contributers to the site.
-### The web App will consist of, onboarding moodle for yearly registration for both new and continueing students of the 
-### university, page for posting our events, tech blogs by our students, members, sponsors or alumnis.
-### The web App will have a moodle that fetches data from an API "Tech News", to render tech news on the website, 
-###  the tech news shall be an update after 24 hrs
+## The CIT CLUB web application.
+### Features 
+#### 1. Resources
+In the resources feature, There are several resources including past papers for all the courses offered by the University. 
+##### 1.1 PastPaper resource
+The past papers are sorted Using year of study and courses. The past papers are pdf links than onclick should open on a blank tab.
+##### 1.2 CIT club projects
+This page  display all the CIT projects and links to the live projects. There projects should have brief description and may may also have url to source code.
+#### 2. Tech job adverts
+This is served to the web application via an API from popular job advertisement web applications like Glassdoor, LinkedIn, BrighterMonday, Indeed etc.
+#### 3. Sign up/ Login
+Users may choose to use this web application as guest users or create account. When a user creates an account, They  have a dashboard that show a summary of their previous visits and The dashboard have a **Favourite**** button that enable users to see their bookmarks and can choose to add more bookmarks. This is user experience is achieved using cookies.
+
+# NOTE!
+One does not need to be a registered member of the club to sign up for an account.
+For registered club members, may also have to sign up for an account for apersonalized user experince.
+One can not bookmark any resource into their favorite unless the have signed up or logged in into personalized account.
+### Member?
+This button appears on the landing page and when a user click on member button, They get an option to register to become a registered member of the club and will be added to the mailing list  that recieves a notification of any event published by the club and may help in survey. 
+The member page should also have a button that display the list of all the registered club members.
+### Events.
+This page displays upcoming, past club events and activities, 
+### Gallery
+The Gallery compose of images taken durring club activities and events, and many more.
 #### The Blog
- The blog section displays the blogs fetched from an API of a tech blogging site like Medium. The blogs will disappear after 24 hours and refresh to ge new blogs.
- 
+The area should display Tech blogs served by an API to the web up from famous blogging sites.
+This is a section in the page.
+### Find Developer
+The find developer links up clients that would need their works or projects done and the developers that have signed up with the club.
+### Our Team
+This page displays the club leaders in service. It include their photo and a short descriptions and a link to their social profiles and theor online portfolio.
+# Usable colors
+Hello contributors, feel free to use either of this colors;
+1. jet hexa code : #343434
+2.  dark blue    : rgb(1,36,86)
+3. white    hexa code  : #f8f8ff 
+# Contributors:
+1. @VictorOmondi1997 : Web
+2. @Brenda-Mwangi    :Web
+3. @Paminus-kingori  :Web
+4. @paullaster        :Web
