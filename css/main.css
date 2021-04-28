@@ -24,16 +24,20 @@ section{
     padding: 1% 5% 1% 5%;
 }
 .landing_section{
-    display: grid;
-    grid-template-columns: .9fr 1fr;
+    /* display: grid;
+    grid-template-columns: .9fr 1fr; */
+    display: flex;
+    flex-wrap: wrap-reverse;
     min-height: 79vh;
-    align-content: flex-end;
-    justify-items: baseline;
+    /* align-content: flex-end;
+    justify-items: baseline; */
+    justify-content: space-between;
+    align-items: baseline;
     padding: 1% 0 1% 1%;
 }
 .img_div__style{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 /* Join CIT club button */
 .join_citclub{
@@ -41,6 +45,7 @@ section{
     display: inline-block;
     text-decoration: none;
     padding: .5em 1.5em;
+    margin-top: 2.5rem;
     font-size: 2em;
     font-weight: 600;
     height: max-content;
@@ -49,18 +54,24 @@ section{
     background: #012456;
     color: #f8f8ff;
     border-radius: 30px;
-    box-shadow: .1em .1em .4em .8em #34343410;
+    /* box-shadow: .1em .1em .4em .8em #34343410; */
+    box-shadow: var(--searchShaodw);
 }
 .join_citclub:hover{
     background: rgb(63 61 86);
 }
 .text_div{
     align-self: center;
-    height: 40%;
+    height: 60%;
     display: grid;
+    max-width: 500px;
+    align-content: space-around;
 }
 .img_div{
     position: relative;
+    width: 400px;
+    /* height: 435px; */
+    flex-grow: .5;
 }
 .img_div::before{
     content: "";

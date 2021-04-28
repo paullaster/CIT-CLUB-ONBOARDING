@@ -65,7 +65,7 @@ footer{
 .part{
     /* min-width: 220px; */
     color: rgb(255, 255, 255);
-    margin: 0 15px;
+    margin:15px;
 }
 .part ul{
 line-height: 1.8;
