@@ -1,0 +1,21 @@
+.login_main{
+    background-image: linear-gradient(to bottom,rgba(1, 36, 86, 0.5)35%, rgba(1, 36, 86, .9)65%), url(../images/header-bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.section_position{
+    background: orangered;
+    width: 30%;
+    height: 70vh;
+    position: absolute;
+    left: 36%;
+    top: 20%;
+    padding: 4em;
+}
+caption{
+    font-size: 2em;
+    font-weight: 800;
+    color: teal;
+}
