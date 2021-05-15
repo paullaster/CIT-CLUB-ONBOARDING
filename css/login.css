@@ -85,6 +85,8 @@ label{
     padding: 1.5%;
     color: #f8f8ff;
     border: none;
+    width: 100%;
+    text-transform: capitalize;
 }
 .login_btn:focus{
     border: .1em solid #343434;
