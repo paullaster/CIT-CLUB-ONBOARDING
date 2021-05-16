@@ -23,6 +23,7 @@ section{
     text-transform: capitalize;
     color: #00008B;
     text-align: center;
+    font-size: 2em;
 }
 
 .heading_tertiary {
