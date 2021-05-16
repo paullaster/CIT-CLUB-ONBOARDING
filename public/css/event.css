@@ -53,13 +53,13 @@
 /*scroll events*/
 .Left_angle_bracket{
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 10%;
     font-size: 3em;
 }
 .Right_angle_bracket{
     position: absolute;
-    top: 60%;
+    top: 40%;
     right: 10%;
     font-size: 3em;
 }
