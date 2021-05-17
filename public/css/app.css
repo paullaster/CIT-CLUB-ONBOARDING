@@ -109,7 +109,7 @@ body{
 .display_drop:hover ul{
     display: block;
     position: absolute;
-    top: 36%;
+    top: 40%;
     background: #34343423;
     height: 50vh;
     padding: 2% 2% 0;
